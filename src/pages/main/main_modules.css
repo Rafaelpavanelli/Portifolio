@@ -1,0 +1,186 @@
+@charset "UTF-8";
+container {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  min-height: 100vh;
+}
+
+.Main {
+  background-color: rgb(0, 0, 0);
+  flex-direction: column;
+  color: white;
+  display: flex;
+  max-width: 100vw;
+  padding: 5vh;
+}
+.Main .Primeira {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10%;
+}
+@media (max-width: 768px) {
+  .Main .Primeira {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+}
+.Main .Primeira .foto {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding: 10% 2% 0% 10%;
+  height: 10%;
+}
+.Main .Primeira .foto::after {
+  display: block;
+  content: "Rafael Pavanelli, Estudante de ADS";
+  font-size: 0.8rem;
+  margin-top: 2%;
+}
+@media (max-width: 768px) {
+  .Main .Primeira .foto::after {
+    width: 70%;
+  }
+}
+@media (max-width: 768px) {
+  .Main .Primeira .foto {
+    margin-left: 20vh;
+    padding: 0px;
+    width: 80%;
+    height: 80%;
+  }
+}
+.Main .Primeira .foto img {
+  border-radius: 10%;
+  border: 1px solid blue;
+  width: 50%;
+  height: 10%;
+}
+.Main .Primeira .sobre {
+  margin-top: 5%;
+  width: 50%;
+}
+.Main .Primeira .sobre span {
+  color: rgb(58, 130, 255);
+}
+.Main .Segunda {
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width: 768px) {
+  .Main .Segunda {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+  }
+  .Main .Segunda::after {
+    content: "Faculdade Eduvale Avaré";
+  }
+}
+.Main .Segunda .curso {
+  width: 50%;
+}
+.Main .Segunda .curso span {
+  color: rgb(58, 130, 255);
+}
+@media (max-width: 768px) {
+  .Main .Segunda .curso {
+    margin-bottom: 10%;
+  }
+}
+.Main .Segunda .fotoFacul {
+  border: 1px solid rgba(128, 128, 128, 0.607);
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  width: 40vw;
+  height: 40vh;
+  background-color: white;
+  background-image: url(./../../Image/eduvale.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10%;
+  border: 2px solid blue;
+}
+.Main .Segunda .fotoFacul p {
+  display: flex;
+  margin-bottom: 0px;
+  background-color: transparent;
+  color: transparent;
+  width: 100%;
+  height: 30%;
+  transition: 0.2s;
+  font-size: 1.2rem;
+  padding: 0px 5%;
+}
+.Main .Segunda .fotoFacul p:hover {
+  background-color: rgba(50, 50, 50, 0.397);
+  color: white;
+  transition: 0.2s;
+}
+@media (max-width: 768px) {
+  .Main .Segunda .fotoFacul p:hover {
+    display: none;
+  }
+}
+.Main .Habilidades {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10% 2%;
+}
+.Main .Habilidades .Linguagens {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 768px) {
+  .Main .Habilidades .Linguagens {
+    flex-wrap: wrap;
+    width: 100vw;
+  }
+}
+.Main .Habilidades .Linguagens h4 {
+  padding: 0px 5%;
+  display: flex;
+  flex-direction: columns;
+  justify-content: center;
+  letter-spacing: 5px;
+  align-items: center;
+  margin-top: 10px;
+}
+.Main .Habilidades .Linguagens h4 svg {
+  margin-right: 0.2rem;
+}
+.Main .buttons {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10vh;
+  align-items: center;
+}
+.Main .buttons h1 {
+  margin-bottom: 2%;
+}
+.Main .buttons div {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Main .buttons div a {
+  padding: 0px 5%;
+  margin: 0px 5%;
+  text-decoration: none;
+  background-color: rgb(58, 130, 255);
+  border-radius: 4%;
+  color: white;
+  font-size: 1.3rem;
+  transition: 0.6s;
+}
+.Main .buttons div a:hover {
+  transform: scale(1.3);
+  transition: 0.6s;
+}/*# sourceMappingURL=main_modules.css.map */

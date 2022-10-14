@@ -1,0 +1,24 @@
+@import './../../style_Variaveis/Variaveis.scss';
+.contato{
+  @extend container;
+  text-align: center;
+  padding: 10%;
+
+   .whats{
+    padding-bottom: 5%;
+    margin-top: 10%;
+    font-size: 2rem;
+    a{
+      text-decoration: none;
+      color: rgb(0, 230, 0);
+    }
+    
+   }
+   .email{
+    font-size: 2rem;
+    a{
+      text-decoration: none;
+      color: rgb(0, 140, 255);
+    }
+   }
+}

@@ -1,0 +1,26 @@
+container, .contato {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  min-height: 100vh;
+}
+
+.contato {
+  text-align: center;
+  padding: 10%;
+}
+.contato .whats {
+  padding-bottom: 5%;
+  margin-top: 10%;
+  font-size: 2rem;
+}
+.contato .whats a {
+  text-decoration: none;
+  color: rgb(0, 230, 0);
+}
+.contato .email {
+  font-size: 2rem;
+}
+.contato .email a {
+  text-decoration: none;
+  color: rgb(0, 140, 255);
+}/*# sourceMappingURL=Contato_modules.css.map */

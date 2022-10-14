@@ -1,0 +1,82 @@
+@import './../../style_Variaveis/Variaveis.scss';
+.Navbar{
+  max-width: 100vw;
+  height: 10vh;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  @include mobile{
+    display: block;
+    margin: auto;
+    justify-content: default;
+    height: 15vh;
+    margin-bottom: 0%;
+    
+  }
+  a{
+    @include mobile{
+      font-size: 80%;
+     
+    }
+  }
+ .logo{
+  display: flex;
+  align-items: center;
+  color: white;
+  a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+   @include mobile{
+    
+   }
+  }
+ }
+  padding: 0px 20px;
+  margin: 0px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  max-width: 100vw;
+  ul{
+    display: flex;
+   justify-content: end;
+    font-size: larger;
+    list-style: none;
+    @include mobile{
+      display: block;
+      
+      text-align:center; ;
+    }
+    li{
+      justify-content: center;
+      align-items: center;
+      padding:0px 2%;
+      @include mobile{
+        display: flex;
+        ;
+      }
+    }
+    a{
+      padding: 2%;
+      text-decoration: none;
+      color:rgb(0, 0, 0);
+      transition: ease-in-out 0.3s ; 
+      &:active{
+        background-color: blue;
+
+      }
+      &:hover{
+        background-color: rgba(70, 70, 70, 0.432);
+        transition: ease-in-out 0.3s ; 
+      }
+    @include mobile {
+      border: 0.5px solid rgb(225, 225, 225);
+      padding: 0%;
+      margin: 1%;
+    }
+    }
+  }
+
+}

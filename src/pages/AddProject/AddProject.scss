@@ -1,0 +1,23 @@
+@import './../../style_Variaveis/Variaveis.scss';
+
+.Cadastrar{
+  @extend container;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .box-cadastrar{
+    width: 70%;
+    display: flex;
+    background-color: $primary-color;
+    align-items: center;
+    
+    height: auto;
+    padding: 10vh;
+    input{
+      width: 180%;
+    }
+    textarea{
+      width: 50%;
+    }
+  }
+}

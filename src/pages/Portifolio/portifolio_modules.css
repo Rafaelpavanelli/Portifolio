@@ -1,0 +1,148 @@
+container, .portifa {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  min-height: 100vh;
+}
+
+.portifa {
+  display: flex;
+  flex-direction: columns;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5vh 10vh;
+  font-size: 1rem;
+}
+.portifa .Box {
+  margin-top: 5%;
+  justify-content: center;
+  max-width: 100vw;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  display: flex;
+}
+@media (max-width: 768px) {
+  .portifa .Box {
+    margin-top: 0%;
+    display: flex;
+    padding: 0px;
+    flex-direction: columns;
+    flex-wrap: wrap;
+  }
+  .portifa .Box h2 {
+    font-size: 1.2rem;
+  }
+}
+.portifa .Box .Project {
+  display: flex;
+  width: 25vw;
+  flex-wrap: wrap;
+  margin-top: 2%;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid rgb(58, 130, 255);
+  padding: 2% 3%;
+}
+@media (max-width: 768px) {
+  .portifa .Box .Project {
+    margin: 0%;
+    flex-wrap: nowrap;
+    padding: 10px;
+    font-size: 1.4rem;
+    width: 100%;
+    margin: 10vh;
+  }
+  .portifa .Box .Project p, .portifa .Box .Project h2, .portifa .Box .Project h1 {
+    font-size: 1.2rem;
+  }
+}
+.portifa .Box .Project .titulo {
+  color: rgb(58, 130, 255);
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2%;
+  height: 15vh;
+}
+.portifa .Box .Project .descricao {
+  font-size: 1rem;
+  max-height: 10vh;
+  overflow-y: scroll;
+  height: 10vh;
+  margin-bottom: 2%;
+}
+.portifa .Box .Project .descricao::-webkit-scrollbar {
+  width: 12px;
+  display: default; /* width of the entire scrollbar */
+}
+.portifa .Box .Project .descricao::-webkit-scrollbar-track {
+  background: linear-gradient(90deg, rgb(0, 65, 255) 26%, rgb(0, 237, 255) 63%);
+}
+@media (max-width: 768px) {
+  .portifa .Box .Project .descricao {
+    width: 70%;
+    font-size: 0.8rem;
+    height: 80vh;
+  }
+}
+.portifa .Box .Project .descricao .Linguagem {
+  height: 5vh;
+}
+.portifa .Box .Project .descricao .Linguagem p {
+  font-size: 4%;
+}
+.portifa .Box .Project .descricao .Linguagem svg {
+  font-size: 1rem;
+}
+.portifa .Box .Project .TituloLinguagem {
+  font-size: 1.2rem;
+  height: 5vh;
+}
+@media (max-width: 768px) {
+  .portifa .Box .Project .TituloLinguagem {
+    margin-bottom: 2vh;
+  }
+}
+.portifa .Box .Project .Links {
+  display: flex;
+  width: 10vh;
+  height: 10vh;
+  flex-direction: column;
+}
+@media (max-width: 768px) {
+  .portifa .Box .Project .Links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.portifa .Box .Project .Links a {
+  color: white;
+}
+.portifa .Box .Project .Links div {
+  text-align: center;
+  font-size: 1rem;
+}
+@media (max-width: 768px) {
+  .portifa .Box .Project .Links div {
+    display: flex;
+    width: 40vw;
+  }
+}
+.portifa .Box .Project .Page_descricao {
+  border: 1px solid white;
+  max-width: 70%;
+  margin: 5vh;
+  margin: 10px;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  text-decoration: none;
+  color: rgb(0, 244, 0);
+  height: 5vh;
+  text-align: center;
+  transition: 0.5s;
+}
+.portifa .Box .Project .Page_descricao:hover {
+  transition: 0.5s;
+  background-color: rgb(0, 244, 0);
+  color: white;
+}/*# sourceMappingURL=portifolio_modules.css.map */
