@@ -40,7 +40,7 @@ container, .portifa {
   margin-top: 2%;
   justify-content: center;
   flex-direction: column;
-  border: 1px solid rgb(58, 130, 255);
+  border: 1px solid rgb(0, 217, 255);
   padding: 2% 3%;
 }
 @media (max-width: 768px) {
@@ -57,7 +57,7 @@ container, .portifa {
   }
 }
 .portifa .Box .Project .titulo {
-  color: rgb(58, 130, 255);
+  color: rgb(0, 217, 255);
   font-size: 2rem;
   text-align: center;
   margin-bottom: 2%;
@@ -136,13 +136,13 @@ container, .portifa {
   font-size: 1.2rem;
   border-radius: 25px;
   text-decoration: none;
-  color: rgb(0, 244, 0);
+  color: #7bbf46;
   height: 5vh;
   text-align: center;
   transition: 0.5s;
 }
 .portifa .Box .Project .Page_descricao:hover {
   transition: 0.5s;
-  background-color: rgb(0, 244, 0);
+  background-color: #7bbf46;
   color: white;
 }/*# sourceMappingURL=portifolio_modules.css.map */

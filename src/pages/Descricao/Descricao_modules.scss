@@ -1,4 +1,47 @@
 @import './../../style_Variaveis/Variaveis.scss';
 .Descricao{
   @extend container;
+  text-align: center;
+  padding: 0vh 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;;
+  h1{
+    padding: 5vh 0vh;
+    color: $primary-color;
+  }
+  @include mobile{
+    padding: 0px;
+  }
+  .descricao{
+    padding: 5vh 0vh;
+    max-width:80vw;
+    @include mobile{
+      max-width: 80vw;
+    }
+  }
+  .buttons{
+    display: flex;
+    flex-direction: column;
+    padding: 2vh 0vh;
+    svg{
+      padding: 0px 4px;
+      color: white;
+    }
+    a{
+      color: white;
+      text-decoration: none;
+      font-size: 1.2rem;
+      background-color: $primary-color;
+      width: 20vh;
+      margin: 1vh;
+      border-radius: 10px;
+      transition: 0.5s;
+      &:hover{
+        transition: 0.5s;
+        color: rgb(51, 29, 179);
+      }
+      
+    }
+  }
 }
