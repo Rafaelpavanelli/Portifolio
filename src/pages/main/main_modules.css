@@ -23,6 +23,7 @@ container {
   .Main .Primeira {
     flex-direction: column;
     margin-top: 10px;
+    align-items: center;
   }
 }
 .Main .Primeira .foto {
@@ -41,20 +42,20 @@ container {
 @media (max-width: 768px) {
   .Main .Primeira .foto::after {
     width: 70%;
+    overflow: hidden;
   }
 }
 @media (max-width: 768px) {
   .Main .Primeira .foto {
-    margin-left: 20vh;
     padding: 0px;
-    width: 80%;
+    width: 60%;
     height: 80%;
   }
 }
 .Main .Primeira .foto img {
   border-radius: 10%;
   border: 1px solid blue;
-  width: 50%;
+  width: 60%;
   height: 10%;
 }
 .Main .Primeira .sobre {
@@ -62,7 +63,7 @@ container {
   width: 50%;
 }
 .Main .Primeira .sobre span {
-  color: rgb(58, 130, 255);
+  color: rgb(0, 217, 255);
 }
 .Main .Segunda {
   display: flex;
@@ -83,7 +84,7 @@ container {
   width: 50%;
 }
 .Main .Segunda .curso span {
-  color: rgb(58, 130, 255);
+  color: rgb(0, 217, 255);
 }
 @media (max-width: 768px) {
   .Main .Segunda .curso {
@@ -174,7 +175,7 @@ container {
   padding: 0px 5%;
   margin: 0px 5%;
   text-decoration: none;
-  background-color: rgb(58, 130, 255);
+  background-color: rgb(0, 217, 255);
   border-radius: 4%;
   color: white;
   font-size: 1.3rem;

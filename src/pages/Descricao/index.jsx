@@ -42,7 +42,6 @@ const Descricao = () =>{
   }
   const data=useLocation();
   const Infos=data.state
-  
   return(
     <div className="Descricao">
       <h1>{Infos.Nome}</h1>
