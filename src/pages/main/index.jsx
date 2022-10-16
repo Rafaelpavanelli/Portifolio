@@ -1,5 +1,5 @@
 import './main_modules.css';
-import Perfil from './../../Image/IMG_20211206_152141.jpg';
+import Perfil from './../../Image/IMG_20220417_000612_481 (1).jpg';
 import {SiReact,SiJavascript,SiPhp,SiNodedotjs,SiCss3} from 'react-icons/si';
 import { NavLink } from 'react-router-dom';
 const Main=()=>{
